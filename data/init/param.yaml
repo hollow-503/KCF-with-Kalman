@@ -1,0 +1,9 @@
+%YAML:1.0
+Kalman:
+  pro_cov_point: [1e-3, 1e-3]
+  pro_cov_length: [1e-3, 1e-3]
+  pro_cov_width: [1e-3, 1e-3]
+  measure_cov_point: [2.0]
+  measure_cov_length: [2.0]
+  measure_cov_width: [2.0]
+KCF:

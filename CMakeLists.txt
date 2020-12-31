@@ -21,7 +21,6 @@ add_executable(KCF-with-Kalman ./src/main.cpp)
 target_link_libraries(KCF-with-Kalman
         ${OpenCV_LIBS}
         ${Boost_LIBRARIES}
-        kcf
-        kalman
+        process
         util
         )
